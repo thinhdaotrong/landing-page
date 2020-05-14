@@ -1,4 +1,5 @@
 import React from 'react';
+import Underline from '../components/Underline'
 
 export const Nav30DataSource = {
   wrapper: { className: 'header3 home-page-wrapper' },
@@ -6,7 +7,7 @@ export const Nav30DataSource = {
   logo: {
     className: 'header3-logo',
     children:
-      'https://gw.alipayobjects.com/zos/basement_prod/b30cdc2a-d91c-4c78-be9c-7c63b308d4b3.svg',
+      'computervision-logo.svg',
   },
   Menu: {
     className: 'header3-menu',
@@ -231,7 +232,7 @@ export const Banner50DataSource = {
 export const Content00DataSource = {
   wrapper: { className: 'home-page-wrapper content0-wrapper' },
   page: { className: 'home-page content0' },
-  OverPack: { playScale: 0.3, className: '' },
+  // OverPack: { playScale: 0.3, className: '' },
   titleWrapper: {
     className: 'title-wrapper',
     children: [
@@ -240,6 +241,19 @@ export const Content00DataSource = {
         children: (
           <span>
             <p>Các công nghệ của chúng tôi</p>
+          </span>
+        ),
+      },
+    ],
+  },
+  explainWrapper: {
+    className: 'explain-wrapper',
+    children: [
+      {
+        name: 'explain',
+        children: (
+          <span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tellus eu viverra auctor. Suspendisse ac id dolor, interdum. Platea tincidunt ac sit arcu duis. At ultricies.</p>
           </span>
         ),
       },
@@ -370,7 +384,6 @@ export const Content00DataSource = {
 export const Content01DataSource = {
   wrapper: { className: 'home-page-wrapper content8-wrapper' },
   page: { className: 'home-page content8' },
-  OverPack: { playScale: 0.3, className: '' },
   titleWrapper: {
     className: 'title-wrapper',
     children: [
@@ -379,6 +392,19 @@ export const Content01DataSource = {
         children: (
           <span>
             <p>Các ứng dụng</p>
+          </span>
+        ),
+      },
+    ],
+  },
+  explainWrapper: {
+    className: 'explain-wrapper',
+    children: [
+      {
+        name: 'explain',
+        children: (
+          <span>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tellus eu viverra auctor. Suspendisse ac id dolor, interdum. Platea tincidunt ac sit arcu duis. At ultricies.</p>
           </span>
         ),
       },
@@ -603,7 +629,7 @@ export const Content01DataSource = {
   },
 };
 export const Content10DataSource = {
-  wrapper: { className: 'home-page-wrapper content10-wrapper'},
+  wrapper: { className: 'home-page-wrapper content10-wrapper' },
   page: { className: 'home-page content10' },
   OverPack: { playScale: 0.3, className: '' },
   titleWrapper: {
@@ -614,6 +640,19 @@ export const Content10DataSource = {
         children: (
           <span>
             <p>Được tin cậy bởi các khách hàng đến từ nhiều quốc gia</p>
+          </span>
+        ),
+      },
+    ],
+  },
+  explainWrapper: {
+    className: 'explain-wrapper',
+    children: [
+      {
+        name: 'explain',
+        children: (
+          <span>
+            <p>We help thousands of companies across the world trust their users’ real identities. From financial services, online healthcare and trust marketplaces, to self-check-ins at airports, hotels and car rentals.</p>
           </span>
         ),
       },
@@ -1101,6 +1140,19 @@ export const Feature10DataSource = {
         children: (
           <span>
             <p>Tích hợp nhanh chóng, dễ dàng</p>
+          </span>
+        ),
+      },
+    ],
+  },
+  explainWrapper: {
+    className: 'explain-wrapper',
+    children: [
+      {
+        name: 'explain',
+        children: (
+          <span>
+            <p> CVS cung cấp linh hoạt 2 giải pháp: CLoud API - On-Premise</p>
           </span>
         ),
       },

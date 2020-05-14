@@ -49,10 +49,10 @@ class Header extends React.Component {
                   {childItem.children.map(getChildrenToRender)}
                 </Link>
               ) : (
-                <div {...childItem}>
-                  {childItem.children.map(getChildrenToRender)}
-                </div>
-              );
+                  <div {...childItem}>
+                    {childItem.children.map(getChildrenToRender)}
+                  </div>
+                );
               return (
                 <Item key={$item.name || ii.toString()} {...$item}>
                   {child}
@@ -72,22 +72,14 @@ class Header extends React.Component {
     });
     const moment = phoneOpen === undefined ? 300 : null;
     return (
-      <TweenOne
-        component="header"
-        animation={{ opacity: 0, type: 'from' }}
-        {...dataSource.wrapper}
-        {...props}
-      >
+      <header {...dataSource.wrapper} {...props}>
         <div
           {...dataSource.page}
           className={`${dataSource.page.className}${phoneOpen ? ' open' : ''}`}
         >
-          <TweenOne
-            animation={{ x: -30, type: 'from', ease: 'easeOutQuad' }}
-            {...dataSource.logo}
-          >
+          <div {...dataSource.logo}>
             <img width="100%" src={dataSource.logo.children} alt="img" />
-          </TweenOne>
+          </div>
           {isMobile && (
             <div
               {...dataSource.mobileMenu}
@@ -105,21 +97,23 @@ class Header extends React.Component {
             animation={
               isMobile
                 ? {
-                    x: 0,
-                    height: 0,
-                    duration: 300,
-                    onComplete: (e) => {
-                      if (this.state.phoneOpen) {
-                        e.target.style.height = 'auto';
-                      }
-                    },
-                    ease: 'easeInOutQuad',
-                  }
+                  x: 0,
+                  height: 0,
+                  duration: 300,
+                  onComplete: (e) => {
+                    if (this.state.phoneOpen) {
+                      e.target.style.height = 'auto';
+                    }
+                  },
+                  ease: 'easeInOutQuad',
+                }
                 : null
             }
             moment={moment}
             reverse={!!phoneOpen}
           >
+            {/* <div {...dataSource.Menu}> */}
+
             <Menu
               mode={isMobile ? 'inline' : 'horizontal'}
               defaultSelectedKeys={['sub0']}
@@ -127,9 +121,11 @@ class Header extends React.Component {
             >
               {navChildren}
             </Menu>
+            {/* </div> */}
+
           </TweenOne>
         </div>
-      </TweenOne>
+      </header>
     );
   }
 }

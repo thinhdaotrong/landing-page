@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import { enquireScreen } from 'enquire-js';
 
-import Header from './NavBar'
+import Header from './Navbar'
 import Footer from './Footer'
 
 import {

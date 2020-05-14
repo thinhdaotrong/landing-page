@@ -1,9 +1,20 @@
 @content1: content1;
 .@{content1}-wrapper {
   // height: 360px;
+      
+  >.title-wrapper {
+    margin: 0 auto 20px;
+  }
+
+  >.explain-wrapper {
+    max-width: 630px;
+    text-align: center;
+    margin: 0 auto 48px;
+  }
   .@{content1} {
     height: 100%;
     padding: 0 24px;
+
     &-img {
       height: 100%;
       transform-origin: top;
@@ -27,12 +38,12 @@
         position: relative !important;
       }
       .@{content1}-title {
-        font-size: 32px;
+        font-size: 24px;
         font-weight: normal;
         color: #404040;
-        margin-top: 120px;
+        margin-top: 20px;
       }
-      .content {
+      .@{content1}-content {
         margin-top: 20px;
       }
     }

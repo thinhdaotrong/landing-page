@@ -31,7 +31,7 @@ module.exports = {
         // background_color: `#182952`,
         // theme_color: `#a2466c`,
         // display: `standalone`,
-        // icon: 'src/favicon.png'
+        icon: 'static/favicon.png'
       }
     },
     {

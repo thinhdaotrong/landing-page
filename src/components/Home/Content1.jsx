@@ -1,8 +1,7 @@
 import React from 'react';
-import QueueAnim from 'rc-queue-anim';
 import { Row, Col } from 'antd';
-import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
 import { getChildrenToRender } from './utils';
+import Underline from '../Underline'
 
 class Content extends React.PureComponent {
   render() {
@@ -11,35 +10,31 @@ class Content extends React.PureComponent {
       wrapper,
       titleWrapper,
       page,
-      OverPack: overPackData,
       childWrapper,
+      explainWrapper,
     } = dataSource;
     return (
       <div {...props} {...wrapper}>
         <div {...page}>
           <div {...titleWrapper}>
             {titleWrapper.children.map(getChildrenToRender)}
+            <Underline />
           </div>
-          <OverPack {...overPackData}>
-            <QueueAnim
-              type="bottom"
-              key="block"
-              leaveReverse
-              component={Row}
-              // componentProps={childWrapper}
-            >
-              {childWrapper.children.map((block, i) => {
-                const { children: item, ...blockProps } = block;
-                return (
-                  <Col key={i.toString()} {...blockProps}>
-                    <div {...item}>
-                      {item.children.map(getChildrenToRender)}
-                    </div>
-                  </Col>
-                );
-              })}
-            </QueueAnim>
-          </OverPack>
+          <div {...explainWrapper}>
+            {explainWrapper.children.map(getChildrenToRender)}
+          </div>
+          <Row>
+            {childWrapper.children.map((block, i) => {
+              const { children: item, ...blockProps } = block;
+              return (
+                <Col key={i.toString()} {...blockProps}>
+                  <div {...item}>
+                    {item.children.map(getChildrenToRender)}
+                  </div>
+                </Col>
+              );
+            })}
+          </Row>
         </div>
       </div>
     );
