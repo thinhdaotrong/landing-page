@@ -197,7 +197,11 @@ export const Banner50DataSource = {
       {
         name: 'content',
         className: 'banner5-content',
-        children: 'Ứng dụng công nghệ Computer Vision để cung cấp các phải pháp tự động hóa cho các doanh nghiệp',
+        children: (
+          <p>
+            Ứng dụng các kỹ thuật Machine Learning trong lĩnh vực <b>Computer Vision</b> để cung cấp các giải pháp <b>tự động hóa</b> cho các doanh nghiệp với chi phí tối ưu
+          </p>
+        )
       },
       {
         name: 'button',
@@ -253,7 +257,7 @@ export const Content00DataSource = {
         name: 'explain',
         children: (
           <span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tellus eu viverra auctor. Suspendisse ac id dolor, interdum. Platea tincidunt ac sit arcu duis. At ultricies.</p>
+            <p>Ứng dụng các thuật toán và công nghệ Machine Learning sử dụng kỹ thuật Deep Learning trong lĩnh vực Computer Vision</p>
           </span>
         ),
       },
@@ -295,7 +299,7 @@ export const Content00DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>Tự động xác định và nhận dạng một hoặc nhiều khuôn mặt trong các hình ảnh hoặc video.</p>
+                  <p>Tối ưu các mô hình trí tuệ nhân tạo để cung cấp các giải pháp như nhận diện khuôn mặt, phân tích độ tuổi, phân tích cảm xúc cho một hoặc nhiều khuôn mặt trong các ảnh hoặc video.</p>
                 </span>
               ),
             },
@@ -323,7 +327,7 @@ export const Content00DataSource = {
               className: 'content0-block-title',
               children: (
                 <span>
-                  <p>Nhận diện ký tự quang học OCR</p>
+                  <p>Nhận diện ký tự quang học - OCR</p>
                 </span>
               ),
             },
@@ -333,7 +337,7 @@ export const Content00DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>Trích xuất thông tin CMND cũ, CMND mới, Căn cước công dân, Hộ chiếu và nhiều loại giấy tờ khác.</p>
+                      <p>Tự động nhận diện văn bản từ các ảnh trong nhiều loại tài liệu khác nhau, cho phép bạn xử lý hàng triệu tài liệu một cách nhanh chóng và tự động hoá quy trình làm việc.</p>
                     </span>
                   </span>
                 </span>
@@ -371,7 +375,7 @@ export const Content00DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>Xây dựng và phát triển ứng dựng Web & Mobile cho các công ty công nghệ, cửa hàng trực tuyến, tổ chức nhà nước, ...</p>
+                  <p>Cung cấp giải pháp tối ưu, giúp nhanh chóng hiện thực hoá các ý tưởng kinh doanh hoặc thúc đẩy quá trình chuyển đổi số của các doanh nghiệp.</p>
                 </span>
               ),
             },
@@ -404,7 +408,7 @@ export const Content01DataSource = {
         name: 'explain',
         children: (
           <span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tellus eu viverra auctor. Suspendisse ac id dolor, interdum. Platea tincidunt ac sit arcu duis. At ultricies.</p>
+            <p>Đội ngũ giàu kinh nghiệm và đam mê của chúng tôi liên tục nghiên cứu các giải pháp ứng dụng vào thực tế để giúp tăng tốc quá trình chuyển đổi số và tự động hoá quy trình làm việc của các doanh nghiệp</p>
           </span>
         ),
       },
@@ -434,7 +438,7 @@ export const Content01DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>Định danh khách hàng</p>
+                      <p>Định danh khách hàng - eKYC</p>
                     </span>
                   </span>
                 </span>
@@ -444,7 +448,7 @@ export const Content01DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>Tự động xác định và nhận dạng một hoặc nhiều khuôn mặt trong các hình ảnh hoặc video.</p>
+                  <p>Kết hợp công nghệ OCR và nhận diện khuôn mặt để tự động xác thực khuôn mặt selfie với ảnh trên giấy tờ tuỳ thân, kết hợp với các kỹ thuật chống giả mạo để cung cấp giải pháp định danh khách hàng có độ tin cậy cao, đáp ứng các yêu cầu cao về bảo mật trong các lĩnh vực như tài chính, ngân hàng, bảo hiểm.</p>
                 </span>
               ),
             },
@@ -480,7 +484,7 @@ export const Content01DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>Trích xuất thông tin CMND cũ, CMND mới, Căn cước công dân, Hộ chiếu và nhiều loại giấy tờ khác.</p>
+                      <p>Ứng dụng công nghệ OCR vào nhận diện và trích xuất thông tin từ nhiều loại giấy tờ tuỳ thân cho phép doanh nghiệp tự động xử lý hàng triệu tài liệu một cách nhanh chóng và với độ chính xác cao.</p>
                     </span>
                   </span>
                 </span>
@@ -516,7 +520,7 @@ export const Content01DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>Xây dựng và phát triển ứng dựng Web & Mobile cho các công ty công nghệ, cửa hàng trực tuyến, tổ chức nhà nước, ...</p>
+                  <p>Ứng dụng công nghệ OCR để nhận diện biển số xe, áp dụng vào các giải pháp thu phí tự động, quản lý bãi đỗ xe.</p>
                 </span>
               ),
             },
@@ -550,7 +554,7 @@ export const Content01DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>Xây dựng và phát triển ứng dựng Web & Mobile cho các công ty công nghệ, cửa hàng trực tuyến, tổ chức nhà nước, ...</p>
+                  <p>Ứng dụng công nghệ nhận dạng khuôn mặt và tìm kiếm khuôndạng tốc độ cao cùng với các kỹ thuật chống giả mạo để cung cấp giải pháp xác thực bằng khuôn mặt có độ tin cậy cao.</p>
                 </span>
               ),
             },
@@ -584,7 +588,7 @@ export const Content01DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>Xây dựng và phát triển ứng dựng Web & Mobile cho các công ty công nghệ, cửa hàng trực tuyến, tổ chức nhà nước, ...</p>
+                  <p>Ứng dụng công nghệ nhận diện khuôn mặt và tìm kiếm khuôn mặt cho giải pháp chấm công bằng khuôn mặt.</p>
                 </span>
               ),
             },
@@ -618,7 +622,7 @@ export const Content01DataSource = {
               name: 'content',
               children: (
                 <span>
-                  <p>Xây dựng và phát triển ứng dựng Web & Mobile cho các công ty công nghệ, cửa hàng trực tuyến, tổ chức nhà nước, ...</p>
+                  <p>Ứng dụng công nghệ nhận diện khuôn mặt, phân cụm khuôn mặt, phân tích cảm xúc, chấm điểm thẩm mỹ để cung cấp giải pháp quản lý kho ảnh với nhiều tính năng tự động, thông minh.</p>
                 </span>
               ),
             },
@@ -652,7 +656,7 @@ export const Content10DataSource = {
         name: 'explain',
         children: (
           <span>
-            <p>We help thousands of companies across the world trust their users’ real identities. From financial services, online healthcare and trust marketplaces, to self-check-ins at airports, hotels and car rentals.</p>
+            <p>Chúng tôi đã và đang giúp các doanh nghiệp đến từ nhiều quốc gia, hoạt động trong nhiều lĩnh vực khác nhau như tài chính, nhân sự, bán lẻ, IoT... trong việc hiện thực hoá các ý tưởng kinh doanh và đẩy nhanh quá trình chuyển đổi số của họ với quy trình và chi phí tối ưu.</p>
           </span>
         ),
       },
@@ -1152,7 +1156,7 @@ export const Feature10DataSource = {
         name: 'explain',
         children: (
           <span>
-            <p> CVS cung cấp linh hoạt 2 giải pháp: CLoud API - On-Premise</p>
+            <p>CVS Vision API cung cấp khả năng tích hợp nhanh chóng, linh hoạt theo chuẩn Restful APIs trên cả hai nền tảng Cloud và On-Premise, phù hợp với nhu cầu của tất cả các doanh nghiệp, từ các startups, doanh nghiệp vừa và nhỏ đến các doanh nghiệp lớn.</p>
           </span>
         ),
       },
@@ -1166,8 +1170,17 @@ export const Feature10DataSource = {
   title: { className: 'content1-title', children: 'Cloud APIs - Dịch vụ tích hợp đám mây' },
   content: {
     className: 'content1-content',
-    children:
-      'In nisi, accumsan nunc, tellus. Sit tortor amet pellentesque mauris morbi ipsum. Enim vitae semper pretium leo, rhoncus ut facilisi nunc, sit. Ultrices pellentesque faucibus ac nunc amet. Tortor pretium id convallis sed posuere scelerisque nisi lacinia. Adipiscing ipsum enim aenean libero sociis. Nunc, odio tellus facilisi odio nunc, eget senectus sit sagittis. In magna metus ridiculus nunc.',
+    children: (
+      <>
+        Tích hợp một cách nhanh chóng với dịch vụ của chúng tôi và cung cấp đến khách hàng của bạn trong vòng chỉ vài giờ đồng hồ.
+        <br />
+        <br />
+        Dùng bao nhiêu trả tiền bấy nhiêu, giúp chi phí linh hoạt và tối ưu tuỳ theo nhu cầu sử dụng và tình hình kinh doanh của bạn.
+        <br />
+        <br />
+        Luôn luôn được sử dụng các công nghệ mới nhất của chúng tôi.
+      </>
+    )
   },
 };
 export const Feature20DataSource = {
@@ -1181,8 +1194,14 @@ export const Feature20DataSource = {
   title: { className: 'content2-title', children: 'On-Premise - Cài đặt máy chủ khách hàng' },
   content: {
     className: 'content2-content',
-    children:
-      'In nisi, accumsan nunc, tellus. Sit tortor amet pellentesque mauris morbi ipsum. Enim vitae semper pretium leo, rhoncus ut facilisi nunc, sit. Ultrices pellentesque faucibus ac nunc amet. Tortor pretium id convallis sed posuere scelerisque nisi lacinia. Adipiscing ipsum enim aenean libero sociis. Nunc, odio tellus facilisi odio nunc, eget senectus sit sagittis. In magna metus ridiculus nunc.',
+    children: (
+      <>
+        Tất cả dữ liệu được xử lý bên trong trung tâm dữ liệu của bạn. Doanh nghiệp của bạn có toàn quyền kiểm soát tất cả các dữ liệu đầu vào và đầu ra.
+        <br />
+        <br />
+        Chúng tôi tùy chỉnh và triển khai các quy trình và hệ thống để tuân thủ các tiêu chuẩn nội bộ doanh nghiệp và luật pháp địa phương về bảo mật dữ liệu và bảo vệ quyền riêng tư.
+      </>
+    )
   },
 };
 export const Teams10DataSource = {
@@ -1435,7 +1454,15 @@ export const Footer10DataSource = {
           children: [
             {
               name: 'content0',
-              children: 'Địa chỉ: Tầng 2 tháp A toà nhà T6-08, đường Tôn Quang Phiệt, Q.Bắc Từ Liêm, TP. Hà Nội, Việt Nam.',
+              children: 'Tầng 2 tháp A toà nhà T6-08, đường Tôn Quang Phiệt, Bắc Từ Liêm, Hà Nội',
+            },
+            {
+              name: 'content1',
+              children: 'sales@computervision.com.vn',
+            },
+            {
+              name: 'content2',
+              children: '088.66.25.220',
             },
           ],
         },
@@ -1472,7 +1499,7 @@ export const Footer10DataSource = {
               href: '#',
               children: (
                 <span>
-                  <p>Nhận diện ký tự quang học OCR</p>
+                  <p>OCR</p>
                 </span>
               ),
             },
@@ -1531,12 +1558,7 @@ export const Footer10DataSource = {
         title: { children: 'Developer' },
         childWrapper: {
           children: [
-            { href: '#', name: 'link0', children: 'DEVELOPERS & API' },
-            { href: '#', name: 'link1', children: 'Quick Start Guides' },
-            { href: '#', name: 'link2', children: 'API documentation' },
-            { href: '#', name: 'link3', children: 'SDKs' },
-            { href: '#', name: 'link4', children: 'FAQs' },
-            { href: '#', name: 'link5', children: 'Service status' },
+            { href: '#', name: 'link0', children: 'API documentation' },
           ],
         },
       },
@@ -1548,12 +1570,9 @@ export const Footer10DataSource = {
         title: { children: 'Company' },
         childWrapper: {
           children: [
-            { href: '#', name: 'link0', children: 'Our Company' },
-            { href: '#', name: 'link1', children: 'About Us' },
-            { href: '#', name: 'link2', children: 'Careers' },
-            { href: '#', name: 'link3', children: 'Contact Us' },
-            { href: '#', name: 'link4', children: 'Press' },
-            { href: '#', name: 'link5', children: 'Partnership Program' },
+            { href: '#', name: 'link0', children: 'About Us' },
+            { href: '#', name: 'link1', children: 'Contact Us' },
+            { href: '#', name: 'link2', children: 'Partnership Program' },
           ],
         },
       },
